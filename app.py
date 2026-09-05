@@ -227,7 +227,7 @@ async def handle_document(client, message: Message):
     try:
         await app.download_media(message.document, file_name=file_path)
     except Exception as e:
-        await message.reply_text(f"❌ Failed to download file: {str(e}")
+        await message.reply_text(f"❌ Failed to download file: {str(e)}")
         return
     
     IS_PROCESSING = True
