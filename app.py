@@ -282,7 +282,7 @@ def telegram_webhook():
 
 # --- FLASK MAIN ROUTE (Health Check) ---
 @app.route('/')
-def home:
+def home():
     return "Bot is running and healthy.", 200
 
 def run_bot_loop():
