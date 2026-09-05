@@ -113,7 +113,7 @@ async def process_file_task(chat_id, file_path, context):
         try:
             await context.bot.send_message(chat_id=chat_id, text="❌ The file is empty.")
         except Exception as send_err:
-            print(f"Error sending error message: {send_err")
+            print(f"Error sending error message: {send_err}")
         return
 
     try:
