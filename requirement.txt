@@ -1,0 +1,4 @@
+flask
+python-telegram-bot
+aiohttp
+gunicorn
